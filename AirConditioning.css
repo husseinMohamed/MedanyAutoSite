@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+
+.backgroundimgServices{
+    background-image: url(img/coolantBg.png);
+    background-attachment: fixed;
+    min-height:400px;
+    width:100%;
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+   
+}
+
+.serviceTitle{
+    padding-top: 150px;
+    color: white;
+    text-align:center;
+    font-size: 4vw;
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-shadow: 2px 2px 8px black;
+    
+    
+}
+@media only screen and (max-width: 947px) {
+    .serviceTitle {
+        font-size:9vw;
+    }
+}
+
+.openingText{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+.packageHeader{
+    text-align: center;
+    font-family: sans-serif;
+    
+}

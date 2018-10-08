@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+
+.backgroundimgServices{
+    background-image: url(img/mapbg3.png);
+    background-attachment: fixed;
+    min-height:300px;
+    width:100%;
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+   
+}
+
+.serviceTitle{
+    padding-top:100px;
+    color: white;
+    text-align:center;
+    font-size: 4vw;
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-shadow: 2px 2px 8px black;
+    
+    
+}
+@media only screen and (max-width: 947px) {
+    .serviceTitle {
+        font-size:9vw;
+    }
+}
+
+form{
+    padding: 25px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    background: lightgray;
+}
+
+.form-control{
+    border: 2px
+}
+
+.swal2-styled.swal2-cancel{
+    background-color: #dc3545 !important;
+  }

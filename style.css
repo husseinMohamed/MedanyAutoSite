@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+::-moz-selection { 
+    color: #fff;
+    background: #000;
+}
+
+::selection {
+    color: #fff;
+    background: #000;
+}
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ .nav-lnk{
+     position: relative;
+     margin-right: 20px;
+     padding-top: 10px;
+     opacity: 0.75;
+    z-index: 1;
+   
+ }
+
+ .navbarTop{
+     background-color: rgb(255, 255, 255) !important;
+}
+
+i{
+    color:#000;
+}
+.medany{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.auto{
+    color: gray !important; 
+    font-size: 1.2em;
+}
+
+.captionTitle{
+    top: 23%;
+    bottom: auto;
+    font-size: 5vw;
+
+}
+@media only screen and (max-width: 930px) {
+    .captionTitle{
+        top: 19%;
+    }
+}
+
+@media (max-width: 2582px) {
+    .captionTitle h1 {
+        font-size: 9vw;
+    }
+    .captionTitle h1 {
+        font-weight: 300;
+    }
+    .captionTitle h1 {
+        text-decoration: underline;
+    }
+    .captionTitle h1{
+        font-family: 'Zilla Slab Highlight', cursive;
+        filter: drop-shadow(0 0 5px #000);
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .captionTitle h1 {
+        font-size: 12vw;
+    }
+}
+
+    
+@media (max-width: 2582px) {
+    .captionTitle h3 {
+        font-size: 4vw;
+    }
+    .captionTitle h3 {
+        font-weight: 900;
+    }
+    .captionTitle h3 {
+        letter-spacing: 25px;
+        filter: drop-shadow(0 0 5px #000);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .captionTitle h3 {
+        display: none;
+    }
+}
+
+.backgroundImgTwo{
+    background-image: url(img/oBVDzS.jpg);
+    background-attachment: fixed;
+    min-height:20%;
+    max-width:100%;
+    margin-top: 20px;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+   
+
+}
+.dropdown-menu .active{
+    background-color:black;
+    color:white;
+}
+
+tr{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.cardSectionTop{
+    background: transparent;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+.sectionTopTitle{
+    color: lightgray;
+    font-family: 'Zilla Slab Highlight', cursive;
+    opacity: 0.9;
+    padding: 5px;
+    font-size: 24px;
+    filter: drop-shadow(0 0 5px #000);
+}
+.card p{
+    color: lightgray;
+    font-size: 17px;
+    filter: drop-shadow(0 0 5px #000);
+    font-family: sans-serif;
+  
+}
+.cardSectionTopImg{
+  opacity: 1;
+
+}
+.cardSectionTopImg:hover{
+  margin-top: 1px;
+  
+  filter: drop-shadow(0 0 5px #000);
+}
+
+
+.midText h1{
+    margin-bottom: 20px;
+    color: black;
+    
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+   
+    
+}
+
+.midText h3{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+ 
+    font-size: 19px;
+    color: gray;
+
+   
+}
+
+.serviceTxt{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.2rem;
+    margin-bottom: 30px;
+    color: gray;
+    
+}
+
+.serviceTxt1{
+    font-family: sans-serif;
+  
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: gray;
+ 
+   
+    
+}
+
+.screwImg{
+    height: 100%;
+    width: 100%;
+}
+
+
+table.borderless td,table.borderless th{
+    border: none !important;
+   
+
+
+}
+
+.cardServices{
+    background: transparent;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 45px;
+    border: transparent;
+    
+}
+.cardServicesTwo{
+    background: transparent;
+    margin: 0 auto;
+    text-align: center;
+    border:transparent;
+    
+}
+
+.cardImgService:hover{
+ opacity: .8;
+
+}
+
+.cardServices:hover{
+  box-shadow: -1px 9px 40px -12px #000;
+  -moz-window-shadow:  -1px 9px 40px -12px #000;
+}
+.cardServicesTwo:hover{
+    box-shadow: -1px 9px 40px -12px #000;
+    -moz-window-shadow:  -1px 9px 40px -12px #000;
+}
+
+footer{
+    background-color: lightgray;
+}
+
+.list-unstyled a{
+    color: gray;
+}
+
+.companyFootName{
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: gray !important;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .companyFootName {
+        margin-top: 0;
+    }
+}
